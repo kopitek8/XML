@@ -1,0 +1,85 @@
+<!ELEMENT Shop (shopDetails, Items)>
+<!ELEMENT shopDetails (shopName, shopAddress, shopTelephone, shopWebsite, shopLogo)>
+
+<!ELEMENT shopName (#PCDATA)>
+<!ELEMENT shopAddress (#PCDATA)>
+<!ELEMENT shopTelephone (#PCDATA)>
+<!ELEMENT shopWebsite (#PCDATA)>
+<!ELEMENT shopLogo EMPTY>
+
+<!ELEMENT Items (Monitors, Mouses, Keyboards, Hard_Disks, Speakers, CPUs, GPUs, Motherboards, Processors, RAMs, Accessories)>
+<!ELEMENT Monitors (Title, Monitor+)>
+<!ELEMENT Monitor (Name, Description, Manufacturer, Resolution, Dimension, Color, speaker?, Quantity, Price)>
+
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Manufacturer (#PCDATA)>
+<!ELEMENT Resolution (#PCDATA)>
+<!ELEMENT Dimension (#PCDATA)>
+<!ELEMENT Color (#PCDATA)>
+<!ELEMENT speaker (#PCDATA)>
+
+<!ELEMENT Mouses (Title, Mouse+)>
+<!ELEMENT Mouse (Name, Description, Quantity, Price)>
+<!ELEMENT Keyboards (Title, Keyboard+)>
+<!ELEMENT Keyboard (Name, Description, Quantity, Price)>
+<!ELEMENT Hard_Disks (Title, HDD:Hard_Disk, SSD:Hard_Disk+)>
+<!ELEMENT HDD:Hard_Disk (HDD:Name, HDD:Description, HDD:Quantity, HDD:Price)>
+<!ELEMENT SSD:Hard_Disk (SSD:Name, SSD:Description, SSD:Quantity, SSD:Price)>
+
+<!ELEMENT HDD:Name (#PCDATA)>
+<!ELEMENT HDD:Description (#PCDATA)>
+<!ELEMENT HDD:Quantity (#PCDATA)>
+<!ELEMENT HDD:Price (#PCDATA)>
+
+<!ELEMENT SSD:Name (#PCDATA)>
+<!ELEMENT SSD:Description (#PCDATA)>
+<!ELEMENT SSD:Quantity (#PCDATA)>
+<!ELEMENT SSD:Price (#PCDATA)>
+
+<!ELEMENT Speakers (Title, Speaker+)>
+<!ELEMENT Speaker (Name, Description, Quantity, Price)>
+<!ELEMENT CPUs (Title, CPU+)>
+<!ELEMENT CPU (Name, Description, Quantity, Price)>
+<!ELEMENT GPUs (Title, GPU+)>
+<!ELEMENT GPU (Name, Description, Quantity, Price)>
+<!ELEMENT Motherboards (Title, Motherboard+)>
+<!ELEMENT Motherboard (Name, Description, Quantity, Price)>
+<!ELEMENT Processors (Title, Processor+)>
+<!ELEMENT Processor (Name, Description, Quantity, Price)>
+<!ELEMENT RAMs (Title, RAM+)>
+<!ELEMENT RAM (Name, Description, Quantity, Price)>
+<!ELEMENT Accessories (Title, Accessory+)>
+<!ELEMENT Accessory (Name, Description, Quantity, Price)>
+
+<!ATTLIST shopLogo logo ENTITY #REQUIRED>
+<!ATTLIST Monitor item_number ID #REQUIRED
+				type ( LED | LCD | CRT ) #REQUIRED>
+<!ATTLIST Mouse item_number ID #REQUIRED>
+<!ATTLIST Keyboard item_number ID #REQUIRED>
+<!ATTLIST Hard_Disks xmlns:HDD CDATA #REQUIRED
+				xmlns:SSD CDATA #REQUIRED>
+<!ATTLIST HDD:Hard_Disk item_number ID #REQUIRED
+				type CDATA #FIXED "HDD">
+<!ATTLIST SSD:Hard_Disk item_number ID #REQUIRED
+				type CDATA #FIXED "SSD">
+<!ATTLIST Speaker item_number ID #REQUIRED>
+<!ATTLIST CPU item_number ID #REQUIRED
+				monitor IDREF #REQUIRED
+				keyboard IDREF #REQUIRED
+				hard_disk IDREF #REQUIRED
+				speaker IDREF #REQUIRED
+				delivery ( free | express ) #IMPLIED>
+<!ATTLIST GPU item_number NMTOKEN #REQUIRED>
+<!ATTLIST Motherboard item_number ID #REQUIRED>
+<!ATTLIST Processor item_number ID #REQUIRED
+				core ( i5 | i7 | i9 ) #REQUIRED>
+<!ATTLIST RAM item_number ID #REQUIRED>
+<!ATTLIST Accessory item_number ID #REQUIRED>
+
+<!NOTATION PNG SYSTEM "image/png">
+
+<!ENTITY storeLogo SYSTEM "comp.png" NDATA PNG>

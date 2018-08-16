@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Shop SYSTEM "catalog_16033148.dtd">
+<?xml-stylesheet type="text/css" href="catalog_16033148.css"?>
+
+<Shop>
+	<shopDetails>
+		<shopName>Wicked Computer Store</shopName>
+		<shopAddress>120 Hartley Rd, Nottingham</shopAddress>
+		<shopTelephone>(+44) 121 716 8834</shopTelephone>
+		<shopWebsite>https://www.wickedcomputerstore.com</shopWebsite>
+		<shopLogo logo="storeLogo"/>
+	</shopDetails>
+
+	<Items>
+		<Monitors>
+			<Title>Monitors</Title>
+			<Monitor item_number="MON101" type="LED">
+				<Name>MSI Optix AG32C 31.5" Curved LED Gaming Monitor</Name>
+				<Description>MSI is one of the top brands for manufacturing top quality gaming monitors. Immerse into a virtual world of gaming with this beautiful monitor.</Description>
+				<Manufacturer>MSI</Manufacturer>
+				<Resolution>1920 x 1080 FULL HD Display</Resolution>
+				<Dimension>20.16" x 28.47" x 8.22"</Dimension>
+				<Color>Available in black color</Color>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;142</Price>
+			</Monitor>
+
+			<Monitor item_number="MON102" type="LCD">
+				<Name>Asus VC279H Slim Bezel Black 27" LCD Monitor</Name>
+				<Description>
+					<![CDATA[ VC279H Wall Mountable Frame-less Monitor In-Plane Switching technology panel with LED backlight in frameless & Slim design Advanced eye care feature with Blue Light Filter & Flicker free Embedded wall mount hole for multiple using scenario ]]>
+				</Description>
+				<Manufacturer>Asus</Manufacturer>
+				<Resolution>1920 x 1080 FULL HD Display</Resolution>
+				<Dimension>24.5" x 1.8" x 14.7"</Dimension>
+				<Color>Available in black color</Color>
+				<speaker>Built-in Stereo Speakers</speaker>
+				<Quantity>15 pieces available</Quantity>
+				<Price>&#163;210</Price>
+			</Monitor>
+
+			<Monitor item_number="MON103" type="CRT">
+				<Name>Samsung SyncMaster 793S 17" CRT Monitor</Name>
+				<Description>The Samsung 793S is a conventional flat screen monitor (not the true flat type) with a 16" viewable screen area. </Description>
+				<Manufacturer>Samsung</Manufacturer>
+				<Resolution>1280 x 1024 HD Display</Resolution>
+				<Dimension>15.8" x 16.1" x 14.9"</Dimension>
+				<Color>Available in black &amp; silver color</Color>
+				<Quantity>5 pieces available</Quantity>
+				<Price>&#163;59</Price>
+				
+			</Monitor>
+		</Monitors>
+
+		<Mouses>
+			<Title>Mouses</Title>
+			<Mouse item_number="MOU101">
+				<Name>Rosewill NEON M59 RGB Gaming Mouse</Name>
+				<Description>This mouse aims to deliver the best gaming experience with the option to set the DPI level up to 10000, so you can focus on the action and enjoy the thrill and excitement with every move. </Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;22</Price>
+			</Mouse>
+
+			<Mouse item_number="MOU102">
+				<Name>Logitech M510 Wireless Laser Mouse</Name>
+				<Description>The Logitech M510 Wireless Mouse delivers wireless convenience, comfort, and control you need to do more.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;24</Price>
+			</Mouse>
+
+			<Mouse item_number="MOU103">
+				<Name>Microsoft 900 PW4-00001 Normal Mouse</Name>
+				<Description>This full-size mouse is designed for greater comfort and precise navigation and has an amazing 2-year average battery life.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;21</Price>
+			</Mouse>
+		</Mouses>
+
+		<Keyboards>
+			<Title>Keyboards</Title>
+			<Keyboard item_number="KEY101">
+				<Name>Logitech G810 Orion Spectrum</Name>
+				<Description>Incorporating pure performance-driven design with Logitech’s most powerful technologies, the Logitech G810 is born to be a gaming weapon for hardcore gamers worldwide.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;71</Price>
+			</Keyboard>
+
+			<Keyboard item_number="KEY102">
+				<Name>Corsair Gaming K55</Name>
+				<Description>Intuitive RGB backlighting modes, 6 dedicated macro keys, multi-key anti-ghosting and media controls provide the customization and control essential for victory. The K55 RGB is your first step towards enhanced performance.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;44</Price>
+			</Keyboard>
+
+			<Keyboard item_number="KEY103">
+				<Name>Razer BlackWidow Stealth 2016</Name>
+				<Description>Designed specifically for gaming, Razer Mechanical Switches actuate at an optimal distance, giving you speed and responsiveness like never before. </Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;81</Price>
+			</Keyboard>
+		</Keyboards>
+
+		<Hard_Disks xmlns:HDD="https://www.wickedcomputerstore.com/global/uk/Product/HDD"
+					xmlns:SSD="https://www.wickedcomputerstore.com/global/uk/Product/SSD">
+			<Title>Hard Disks</Title>
+			<HDD:Hard_Disk item_number="HD101" type="HDD">
+				<HDD:Name>WD Blue 1TB Desktop Hard Disk Drive</HDD:Name>
+				<HDD:Description>Boost your PC storage with WD Blue drives, the brand designed just for desktop and all-in-one PCs with a variety of storage capacities. </HDD:Description>
+				<HDD:Quantity>20 pieces available</HDD:Quantity>
+				<HDD:Price>&#163;42</HDD:Price>
+			</HDD:Hard_Disk>
+
+			<SSD:Hard_Disk item_number="HD102" type="SSD">
+				<SSD:Name>SAMSUNG 860 EVO Series 500GB Internal Solid State Drive</SSD:Name>
+				<SSD:Description>The newest edition to the world's best-selling1 SATA SSD series, the Samsung 860 EVO is specially designed to enhance performance of mainstream PCs and laptops.</SSD:Description>
+				<SSD:Quantity>20 pieces available</SSD:Quantity>
+				<SSD:Price>&#163;103</SSD:Price>
+			</SSD:Hard_Disk>
+
+			<SSD:Hard_Disk item_number="HD103" type="SSD">
+				<SSD:Name>Intel 512GB SATA Internal Solid State Drive </SSD:Name>
+				<SSD:Description>For those who demand value and performance, the new Intel® SSD, featuring 64-layer Intel® 3D NAND technology, offers a cost-effective and efficient replacement for traditional hard disk drives (HDD). </SSD:Description>
+				<SSD:Quantity>20 pieces available</SSD:Quantity>
+				<SSD:Price>&#163;106</SSD:Price>
+			</SSD:Hard_Disk>
+		</Hard_Disks>
+
+		<Speakers>
+			<Title>Speakers</Title>
+			<Speaker item_number="SP101">
+				<Name>Creative GigaWorks T20 Series II</Name>
+				<Description>High style meets high fidelity with Creative's GigaWorks T20 Series II 2.0 speakers. Following its award-winning predecessor, this new two-piece system, finished in stylish high-glossy black coating, has been carefully enhanced to improve its visual appeal and acoustic capability, propelling your audio enjoyment to a whole new level.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;65</Price>
+			</Speaker>
+
+			<Speaker item_number="SP102">
+				<Name>Logitech Multimedia Speakers Z200</Name>
+				<Description>With two drivers per satellite delivering 10 watts of peak power, Z200 Multimedia Speakers produce rich, balanced stereo and clear acoustics for a room-filling sound.</Description>
+				<Quantity>15 pieces available</Quantity>
+				<Price>&#163;54</Price>
+			</Speaker>
+
+			<Speaker item_number="SP103">
+				<Name>Rosewill BA-001 2.1 Multimedia speaker system</Name>
+				<Description>Two satellite speakers with precise sound positioning and a 3 inch subwoofer recreate realistic entertainment. Immerse yourself in gameplay and movies with accurate sounds accompanied by deep, solid bass.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;23</Price>
+			</Speaker>
+		</Speakers>
+
+		<CPUs>
+			<Title>CPUs</Title>
+			<CPU item_number="CPU101" monitor="MON102" keyboard="KEY103" hard_disk="HD101" speaker="SP102" delivery="free">
+				<Name>Corsair One Pro Compact VR-Ready</Name>
+				<Description>CORSAIR ONE takes fast, quiet, small, and beautiful PCs to a previously impossible level. Packed with cutting edge and award-winning CORSAIR technology, the CORSAIR ONE is designed specifically to deliver true VR and 4K gaming to your living room or den. </Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;830</Price>
+			</CPU>
+
+			<CPU item_number="CPU102" monitor="MON101" keyboard="KEY102" hard_disk="HD103" speaker="SP103">
+				<Name>Dell XPS Tower Special Edition (8930)</Name>
+				<Description>Our highest performing XPS ever with 8th gen 6-core processors, advanced VR-ready graphics and easy to expand chassis. Now fully configurable.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;1199</Price>
+			</CPU>
+
+			<CPU item_number="CPU103" monitor="MON103" keyboard="KEY101" hard_disk="HD102" speaker="SP101" delivery="express">
+				<Name>Alienware Area-51 Threadripper Edition</Name>
+				<Description>The Alienware Area-51 desktop is re-engineered with Ryzen Threadripper processors, a 2nd gen triad chassis and optional dual Radeon® RX Vega64 graphics cards.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;2599</Price>
+			</CPU>
+		</CPUs>
+
+		<GPUs>
+			<Title>GPUs</Title>
+			<GPU item_number="G101">
+				<Name>PowerColor RED DRAGON Radeon RX 580</Name>
+				<Description>It is based on AMD’s latest GCN 4 architecture designed for GloFo 14nm FinFET that delivers premium VR capability, increased level of performance, smooth VR, seamless support for next-gen gaming monitors and CPU-free game streaming or recording.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;283</Price>
+			</GPU>
+
+			<GPU item_number="G102">
+				<Name>SAPPHIRE NITRO+ Radeon RX 580</Name>
+				<Description>Built on the future-proof Polaris architecture, the SAPPHIRE NITRO+ Radeon™ RX 580 graphics card plays your favorites at a smooth 1080p and beyond.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;284</Price>
+			</GPU>
+
+			<GPU item_number="G103">
+				<Name>MSI GeForce GTX 1060 Gaming X 6G</Name>
+				<Description>GeForce GTX graphics cards are the most advanced ever created. Discover unprecedented performance, power efficiency, and next-generation gaming experiences.</Description>
+				<Quantity>15 pieces available</Quantity>
+				<Price>&#163;370</Price>
+			</GPU>
+		</GPUs>
+
+		<Motherboards>
+			<Title>Motherboards</Title>
+			<Motherboard item_number="MOT101">
+				<Name>GIGABYTE GA-H110-D3A</Name>
+				<Description>GIGABYTE 100 series motherboards support the latest 7th Generation Intel® Core™ processors, a 14nm desktop CPU which features improved performance, power efficiency and support for DDR4 memory, bringing cutting edge features and ultimate performance to your next PC build. </Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;66</Price>
+			</Motherboard>
+
+			<Motherboard item_number="MOT102">
+				<Name>MSI Z370 GAMING PLUS</Name>
+				<Description>Personalize your PC with 16.8 million colors and 17 effects through Mystic Light RGB LED. Controlled in one click with the Mystic Light APP or a mobile device. </Description>
+				<Quantity>15 pieces available</Quantity>
+				<Price>&#163;90</Price>
+			</Motherboard>
+
+			<Motherboard item_number="MOT103">
+				<Name>ASRock B250 Pro4</Name>
+				<Description>Prepare yourself well to enjoy the impressive world of Virtual Reality. Before that, you have to make sure everything is qualified, including hardware, software and drivers.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;54</Price>
+			</Motherboard>
+		</Motherboards>
+
+		<Processors>
+			<Title>Processors</Title>
+			<Processor item_number="PRO101" core="i5">
+				<Name>Intel Core i5-7600K Kaby Lake</Name>
+				<Description>7th Generation Intel® Core™ processors will have you feeling immersed in gaming and entertainment like never before, whether at home or on the go.</Description>
+				<Quantity>25 pieces available</Quantity>
+				<Price>&#163;156</Price>
+			</Processor>
+
+			<Processor item_number="PRO102" core="i7">
+				<Name>Intel Core i7-7700K Kaby Lake</Name>
+				<Description>7th Generation Intel® Core™ processors will have you feeling immersed in gaming and entertainment like never before, whether at home or on the go.</Description>
+				<Quantity>30 pieces available</Quantity>
+				<Price>&#163;246</Price>
+			</Processor>
+
+			<Processor item_number="PRO103" core="i9">
+				<Name>Intel Core i9-7980XE Skylake</Name>
+				<Description>Introducing Intel's most advanced 7th Generation Intel® Core™ desktop processor ever</Description>
+				<Quantity>40 pieces available</Quantity>
+				<Price>&#163;1340</Price>
+			</Processor>
+		</Processors>
+
+		<RAMs>
+			<Title>RAMs</Title>
+			<RAM item_number="RAM101">
+				<Name>Corsair Vengeance LED DDR4 RAM</Name>
+				<Description>Some of the best overall RAM on the market comes from Corsair. Their Vengeance series has something for everyone with its LED DDR4 offerings topping our list</Description>
+				<Quantity>25 pieces available</Quantity>
+				<Price>&#163;210</Price>
+			</RAM>
+
+			<RAM item_number="RAM102">
+				<Name>G.Skill Ripjaws V Series DDR4 RAM</Name>
+				<Description>When looking for high-speed, quality DDR4 for your rig, look no further than the G.Skill Ripjaws V Series.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;105</Price>
+			</RAM>
+
+			<RAM item_number="RAM103">
+				<Name>Kingston HyperX Predator DDR3 RAM</Name>
+				<Description>Kingston’s high-performance HyperX has some of the best DDR3 RAM on the market and the Predator models is particularly tuned for  and extreme-performance that’s further expandable with XMP profiles.</Description>
+				<Quantity>20 pieces available</Quantity>
+				<Price>&#163;200</Price>
+			</RAM>
+		</RAMs>
+
+		<Accessories>
+			<Title>Accessories</Title>
+			<Accessory item_number="ACC101">
+				<Name>Laptop Cooling Pad</Name>
+				<Description>Are you annoyed by your laptop's heat? Get a new cooling pad and your laptop will run as cool as ice.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;9</Price>
+			</Accessory>
+
+			<Accessory item_number="ACC102">
+				<Name>Laptop Case</Name>
+				<Description>Protect your laptop from dust while carrying outside.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;5</Price>
+			</Accessory>
+
+			<Accessory item_number="ACC103">
+				<Name>Bag</Name>
+				<Description>A durable and spacious laptop bag can help you carry your laptop with ease.</Description>
+				<Quantity>10 pieces available</Quantity>
+				<Price>&#163;15</Price>
+			</Accessory>
+		</Accessories>
+	</Items>
+</Shop>

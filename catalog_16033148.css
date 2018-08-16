@@ -1,0 +1,463 @@
+@namespace HDD url(https://www.wickedcomputerstore.com/global/uk/Product/HDD);
+@namespace SSD url(https://www.wickedcomputerstore.com/global/uk/Product/SSD);
+
+@font-face {
+	font-family: "Raleway";
+	src: url("font/Raleway-Regular.ttf") format("truetype"); 
+}
+
+Shop {
+	background: #FBEEC1;
+	font-family: "Raleway", Times, sans-serif; 
+}
+
+shopDetails {
+	display: block;
+	width: 100%;
+	background-color: rgb(196, 242, 196);
+	background: linear-gradient(to right, #bbd2c5, #536976);
+	height: 258px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+shopName {
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 44pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+shopAddress, shopTelephone, shopWebsite {
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 22pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+shopLogo {
+	background-image: url("logo/comp.png");
+	background-repeat: no-repeat;
+	background-size: 190px;
+	height: 300px;
+	width: 410px;
+	float: left;
+	clear: both;
+	position: absolute;
+	top: 10px;	
+	left: 40px;
+	margin: auto;
+}
+
+Items {
+	display: block;
+	padding: 12px;
+	text-align: justify;
+}
+
+Monitors > Title {
+	margin-top: 20px;
+}
+
+Title {
+	display: block;
+	text-align: center;
+	font-size: 42pt;
+	margin: auto;
+	font-style: oblique;
+	padding: 5px;
+	width: 380px;
+	background: #fafafa;
+	border: 2px black dotted;
+	border-radius: 15px;
+	font-family: Times, sans-serif;
+}
+
+Monitor {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 365px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+Mouse, Keyboard, Processor, Motherboard {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 220px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+RAM, CPU {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 260px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+Speaker {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 280px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+GPU {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 250px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+Accessory {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 30px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 160px;
+	border: 3px black double;
+	border-radius: 10px;
+}
+
+Monitor > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Monitor > Description, Monitor > Quantity, Monitor > Manufacturer, Monitor > Resolution, Monitor > Dimension, Monitor > Color, Monitor > speaker {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+Monitor > Price, Mouse > Price, Keyboard > Price, Speaker > Price, GPU > Price, CPU > Price, Motherboard > Price, Processor > Price, RAM > Price, Accessory > Price {
+	display: block;
+	margin: 5px 5px 0 5px;
+	font-size: 20pt;
+}
+
+Mouse > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Mouse > Description, Mouse > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+Keyboard > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Keyboard > Description, Keyboard > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+HDD|Hard_Disk, SSD|Hard_Disk {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 245px;
+	border: 2px black double;
+	border-radius: 10px;
+}
+
+HDD\:Hard_Disk, SSD\:Hard_Disk {
+	display: inline-table;
+	vertical-align: top;
+	margin: 10px auto 60px auto;
+	background: #DAAD86;
+	width: 32.8%;
+	height: 300px;
+	border: 2px black double;
+	border-radius: 10px;
+}
+
+HDD|Hard_Disk > HDD|Name, SSD|Hard_Disk > SSD|Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+HDD\:Hard_Disk > HDD\:Name, SSD\:Hard_Disk > SSD\:Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+HDD|Hard_Disk > HDD|Description, HDD|Hard_Disk > HDD|Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+HDD|Hard_Disk > HDD|Price {
+	display: block;
+	margin: 5px 5px 0 5px;
+	font-size: 20pt;
+}
+
+SSD|Hard_Disk > SSD|Description, SSD|Hard_Disk > SSD|Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+SSD|Hard_Disk > SSD|Price {
+	display: block;
+	margin: 5px 5px 0 5px;
+	font-size: 20pt;
+}
+
+HDD\:Hard_Disk > HDD\:Description, HDD\:Hard_Disk > HDD\:Quantity, HDD\:Hard_Disk {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+HDD\:Hard_Disk > HDD\:Price {
+	display: block;
+	margin: 5px 5px 0 5px;
+	font-size: 20pt;
+}
+
+SSD\:Hard_Disk > SSD\:Description, SSD\:Hard_Disk > SSD\:Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+SSD\:Hard_Disk > SSD\:Price {
+	display: block;
+	margin: 5px 5px 0 5px;
+	font-size: 20pt;
+}
+
+Speaker > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Speaker > Description, Speaker > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+CPU > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+CPU > Description, CPU > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+GPU > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+GPU > Description, GPU > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+Motherboard > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Motherboard > Description, Motherboard > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+Processor > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Processor > Description, Processor > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+RAM > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+RAM > Description, RAM > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+Accessory > Name {
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px black dashed;
+}
+
+Accessory > Description, Accessory > Quantity {
+	display: list-item;
+	margin: 2px 5px 0 20px;
+}
+
+shopName:after {
+	content: "Home";
+	position: fixed;
+	display: block;
+	background: #536976;
+	text-align: center;
+	font-size: 30pt;
+	color: rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 210px;
+	height: 49px;
+	width: 20%;
+}
+
+shopAddress:after {
+	content: "Items";
+	position: fixed;
+	display: block;
+	background: #536976;
+	text-align: center;
+	font-size: 30pt;
+	color: rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 210px;
+	left: 20%;
+	height: 49px;
+	width: 20%;
+	border-left: 2px #D3D3D3 solid;
+}
+
+shopWebsite:after {
+	content: "Offers";
+	position: fixed;
+	display: block;
+	background: #536976;
+	text-align: center;
+	font-size: 30pt;
+	color: rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 210px;
+	left: 40%;
+	height: 49px;
+	width: 20%;
+	border-left: 2px #D3D3D3 solid;
+	border-right: 2px #D3D3D3 solid;
+}
+
+shopTelephone:after {
+	content: "Profile";
+	position: fixed;
+	display: block;
+	background: #536976;
+	text-align: center;
+	font-size: 30pt;
+	color: rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 210px;
+	left: 60%;
+	height: 49px;
+	width: 20%;
+}
+
+shopTelephone:before {
+	content: "Cart";
+	position: fixed;
+	display: block;
+	background: #536976;
+	text-align: center;
+	font-size: 30pt;
+	color: rgb(220,220,220);
+	float: left;
+	position: absolute;
+	top: 210px;
+	left: 80%;
+	height: 49px;
+	width: 19%;
+	padding-left: 14px;
+	border-left: 2px #D3D3D3 solid;
+}
+
+
+Shop:after {
+	content: "©Wicked Computer Store 2018 \A All Rights Reserved";
+	position: relative;
+	white-space: pre-wrap;
+	display: block;
+	background: #536976;
+	color: rgb(220,220,220);
+	bottom:0;
+	padding:0 !important; 
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 18pt;
+	margin: 0;
+}
